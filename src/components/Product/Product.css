@@ -1,0 +1,30 @@
+.product {
+    display      : flex;
+    border-bottom: 2px solid lightgray;
+    margin       : 10px;
+}
+
+.product-photo {
+    margin-right: 40px;
+}
+
+.product-info>h4 {
+    color      : blue;
+    font-weight: 400;
+}
+
+.product-info {
+    padding-bottom: 10px;
+}
+
+.btn {
+    background-color: goldenrod;
+    width           : 150px;
+    height          : 30px;
+    border-radius   : 5px;
+    border          : 1px solid darkgray;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
