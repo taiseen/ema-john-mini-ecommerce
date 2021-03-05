@@ -24,7 +24,7 @@ const Shop = () => {
 
             {/* ================= Product Component ================= */}
             <div className="product-container">
-                {
+                {   // parent send object & function...
                     products.map(pd => <Product product={pd} btnClick={addProduct}></Product>)
                 }
             </div>

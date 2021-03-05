@@ -30,10 +30,10 @@ const Cart = (props) => {
     const tax = (totalPrice * .1).toFixed(2);
     const grandTotal = (totalPrice + shipping + Number(tax)).toFixed(2);
 
-    const formantNumber = num => {
-        const precision = num.toFixed(2);
-        return Number(precision);
-    }
+    // const formantNumber = num => {
+    //     const precision = num.toFixed(2);
+    //     return Number(precision);
+    // }
 
     return (
         <div>
